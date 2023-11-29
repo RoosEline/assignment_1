@@ -1,5 +1,5 @@
 import numpy as np
-
+#test
 class MultipleLinearRegression:
     def __init__ (self, default_intercept = 0, default_coefficients = None):
         self.intercept = default_intercept
