@@ -5,10 +5,13 @@ class MultipleLinearRegression:
         self.intercept = default_intercept
         self.coefficients = default_coefficients
 
-    def train(self, x, y): 
+    def getWeights()
         xt = np.matrix.transpose(x)
         w = np.matmul((np.matmul(np.linalg.inv(np.matmul(xt, x)), xt), y)
         return w
+    
+    def train(self, x, y): 
+        getWeights()
 
     def predict(self, x, w):
         y = np.matmul(x, w)
