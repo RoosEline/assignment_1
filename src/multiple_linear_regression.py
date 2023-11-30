@@ -13,5 +13,3 @@ class MultipleLinearRegression:
     def predict(self, x, w):
         y = np.matmul(x, w)
         return y
-
-    def 
